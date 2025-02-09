@@ -5,6 +5,8 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -15,6 +17,8 @@ class MyApp extends StatelessWidget {
 }
 
 class CounterImageToggleScreen extends StatefulWidget {
+  const CounterImageToggleScreen({super.key});
+
   @override
   _CounterImageToggleScreenState createState() =>
       _CounterImageToggleScreenState();
